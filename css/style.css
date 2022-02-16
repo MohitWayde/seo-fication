@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.mynavbar{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    font-size: 18px;
+    top: 0;
+    justify-content: flex-end;
+    position: sticky;
+    padding-right: 10px;
+    
+}
+
+.navbar-left{
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 25px;
+}
+
+
+
+.navbar-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-items{
+    background-color: white;
+    display: flex;
+    height: 60px;
+    align-items: center;  
+    margin-bottom: 0;
+}
+
+.navbar-anchor{
+    margin: 10px;
+    /* background-color: white; */
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.li-items{
+    list-style: none;
+    background-color: white;
+}
+
+.navbar-search-button{
+    display: flex;
+    border: 2px solid purple;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+}
+
+/*navbar end */
+
+
+.homesection::before{
+    content: "";
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity:0.9;
+    background: url('../images/bg/skyscrapper-2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.homesection img{ 
+    width: 100%;
+    height: 100%;
+}
+.homesection{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+
+.homesection .h1class{
+    color: white;
+    padding: 5px;
+    font-size: 60px;
+    background-color: rgb(150, 185, 197);
+    /* opacity: 0.9; */
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overlay-btn{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.overlay-first{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.mybtn{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10PX;
+    font-size: 18px;
+}
+.mybtn-purple{
+    color: white;
+    background-color: purple;
+}
+.btn:hover{
+    color: rgb(187, 181, 181);
+    background-color: rgb(82, 2, 82)
+}
+.h1class{
+    text-align: center;
+}
+.detail-section{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.detail-img{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-content{
+    text-align: center;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.intro-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+}
+
+.intro-img1{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-content{
+    text-align: center;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.our-projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(310px,1fr));
+    background-color: black;
+}
+.our-projects-h1{
+    padding:5px;
+    margin:0;
+    text-align:center;
+    background-color: black;
+    color: white;
+}
+.project-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.project-grid:hover{
+    opacity: 0.7;
+}
+
+.our-clients{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(310px,1fr));
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+/* .client-card{
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%; 
+}*/
+
+.footerclass{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    background-color: #2a2b2d;
+    margin-top: 50px;
+}
+
+.footerbox{
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.footerclass h4{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#footerbox2{
+    display: flex;
+    justify-content: flex-end;
+}
+#footerbox2 i{
+    font-size: 30px;
+    color: white;
+}
+#footerbox2 a{
+    padding-right: 10px;
+    
+}
+
+.fa{
+    border-radius: 5px;
+}
+.fa-instagram:hover{
+    background-color: purple;
+}
+.fa-github:hover{
+    background-color: green;
+}
+.fa-youtube:hover{
+    background-color: red;
+}
+.fa-linkedin:hover{
+    background-color: #0a66c2;
+}
+.fa-facebook:hover{
+    background-color: lightblue;
+}
+.fa-angle-up{
+    cursor: pointer;
+    scroll-behavior: smooth;
+    
+}
+
+
+@media screen and (max-width: 850px) 
+{
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text-content{
+        width: 90%;
+    }
+    .footerclass{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .footerbox{
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap; */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #footerbox2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+   
+}
