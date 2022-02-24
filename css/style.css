@@ -122,6 +122,9 @@
     justify-content: center; */
 }
 
+.our-clients-h1{
+    text-align: center;
+}
 
 .footerclass{
     display: flex;
